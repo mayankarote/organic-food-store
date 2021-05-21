@@ -83,7 +83,6 @@ export default class About extends Component {
     );
   }
 }
-
 //  const HomeWrapper = styled.section``;
 
 export const HomeWrapper = styled.div`
