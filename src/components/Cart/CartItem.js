@@ -7,12 +7,7 @@ export default class CartItem extends Component {
     return (
       <div className="row my-1 text-capitalize text-center">
         <div className="col-10 mx-auto col-lg-2">
-          <img
-            src={img}
-            style={{ width: "5rem", heigth: "5rem" }}
-            className="img-fluid"
-            alt=""
-          />
+          <img src={img} style={{ width: "5rem", heigth: "5rem" }} className="img-fluid" alt=""/>
         </div>
         <div className="col-10 mx-auto col-lg-2 ">
           <span className="d-lg-none">product :</span> {title}
@@ -25,8 +20,7 @@ export default class CartItem extends Component {
         <div className="col-10 mx-auto col-lg-2 my-2 my-lg-0 ">
           <div className="d-flex justify-content-center">
             <div>
-              <span
-                className="btn btn-black mx-1"
+              <span className="btn btn-black mx-1"
                 onClick={() => {
                   return decrement(id);
                 }}
@@ -34,8 +28,7 @@ export default class CartItem extends Component {
                 -
               </span>
               <span className="btn btn-black mx-1">{count}</span>
-              <span
-                className="btn btn-black mx-1"
+              <span className="btn btn-black mx-1"
                 onClick={() => {
                   return increment(id);
                 }}
