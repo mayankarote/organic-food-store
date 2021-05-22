@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.css"
-import ab from "./ab.jpg";
-import img1 from "./img2.jpg";
+import ab from "../assets/ab.jpg";
+import img1 from "../assets/img2.jpg";
 import styled from "styled-components";
 import { HomeConsumer } from "../context1";
 

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "../App.css"
-import ab from "./ab.jpg";
-import visionmission from "./visionmission.jpg";
-import philosophy from "./philosophy.jpg";
-import ourspeciality from "./ourspeciality.jpg";
+import ab from "../assets/ab.jpg";
+import visionmission from "../assets/visionmission.jpg";
+import philosophy from "../assets/philosophy.jpg";
+import ourspeciality from "../assets/ourspeciality.jpg";
 import styled from "styled-components";
 import Title from "./Title";  
 
