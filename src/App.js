@@ -10,7 +10,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Cart from "./components/Cart";
 import Modal from "./components/Modal";
-import Footer from "../src/Footer";
+import Footer from "./Footer";
 
 
 class App extends Component {
