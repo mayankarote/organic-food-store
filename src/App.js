@@ -8,6 +8,7 @@ import Details from "./components/Details";
 import Default from "./components/Default";
 import Home from "./components/Home";
 import About from "./components/About";
+import Login from "./components/Login/Login";
 import Cart from "./components/Cart";
 import Modal from "./components/Modal";
 import Footer from "./Footer";
@@ -21,6 +22,7 @@ class App extends Component {
           <Route exact path="/home" component={Home} />
           <Route exact path="/" component={ProductList} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/login" component={Login} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
           <Route component={Default} />

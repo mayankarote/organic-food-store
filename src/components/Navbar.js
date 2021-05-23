@@ -18,7 +18,7 @@ export default class Navbar extends Component {
 
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-            <Link to="/Home" className="nav-link" style={{ marginRight: 150, marginLeft: 150,  top: -10}}>MSP Organic Food</Link>
+            <Link to="/Home" className="nav-link" style={{ marginRight: 130, marginLeft: 130,  top: -10}}>MSP Organic Food</Link>
           </li>
         </ul>
         
