@@ -122,9 +122,8 @@ p {
 
 .form {
   position: relative;
-  opacity: 0.5rem;
+  opacity: 0.9rem;
   background-color: rgb(194, 240, 194);
-  border: 1px solid black;
   border-radius: 0.5rem;
   width: 50%;
   height: 50%;
