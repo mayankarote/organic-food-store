@@ -11,14 +11,14 @@ export default class Navbar extends Component {
       <Nav className="navbar navbar-expand-sm px-sm-5 align-items-center sticky-top">
         
        {/* Logo */}
-        <Link to="/Home" style={{ marginRight: 150, position: "absolute" }}>
+        <Link to="/" style={{ marginRight: 150, position: "absolute" }}>
           <img src={logo} alt="store" className="navbar-brand" style={{ width: 170,
             top: -10, marginTop: 80}} />
         </Link>
 
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-            <Link to="/Home" className="nav-link" style={{ marginRight: 130, marginLeft: 130,  top: -10}}>MSP Organic Food</Link>
+            <Link to="/" className="nav-link" style={{ marginRight: 130, marginLeft: 130,  top: -10}}>MSP Organic Food</Link>
           </li>
         </ul>
         

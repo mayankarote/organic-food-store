@@ -9,11 +9,11 @@ const Menu = () => {
     return (
         <>
             <h5> 
-                <NavLink to='/Home' component={{Home}} style={{ marginRight: 50, marginLeft: 50, color: "Black", textDecoration: 'none' }}>Home</NavLink>
+                <NavLink to='/' component={Home} style={{ marginRight: 50, marginLeft: 50, color: "Black", textDecoration: 'none' }}>Home</NavLink>
 
-                <NavLink to='/' component={{ProductList}} style={{ marginRight: 50, marginLeft: 30, color: "Black", textDecoration: 'none' }}>Products</NavLink>
+                <NavLink to='/productlist' component={{ProductList}} style={{ marginRight: 50, marginLeft: 30, color: "Black", textDecoration: 'none' }}>Products</NavLink>
                 
-                <NavLink to='/About'  style={{ marginRight: 50, marginLeft: 30,color: "Black", textDecoration: 'none' }}>About Us</NavLink>
+                <NavLink to='/about'  style={{ marginRight: 50, marginLeft: 30,color: "Black", textDecoration: 'none' }}>About Us</NavLink>
 
                 <NavLink to='/login'  component={{Login}} style={{ marginRight: 50, marginLeft: 30,color: "Black", textDecoration: 'none' }}>Login/Register</NavLink>
             </h5>
