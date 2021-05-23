@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo1.jpg";
 import { ButtonContainer } from "./Button";
 import Menu from "./Menu";
 
@@ -13,18 +13,19 @@ export default class Navbar extends Component {
        {/* Logo */}
         <Link to="/" style={{ marginRight: 150, position: "absolute" }}>
           <img src={logo} alt="store" className="navbar-brand" style={{ width: 170,
-            top: -10, marginTop: 80}} />
+            top: -10, marginTop: 80, borderRadius: 100}} />
         </Link>
 
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-            <Link to="/" className="nav-link" style={{ marginRight: 130, marginLeft: 130,  top: -10}}>MSP Organic Food</Link>
+            <Link to="/" className="nav-link" style={{ marginRight: 130, marginLeft: 130,  top: -10}}>MSP Organics Food</Link>
           </li>
         </ul>
         
         <Menu />
 
         {/* if customer is login -- display this part */}
+        
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>
             <span className="mr-2">

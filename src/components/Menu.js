@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import { NavLink } from "react-router-dom";
 import Home from "./Home";
-import Login from "./Login/Login";
+import Login from "./Login";
 import ProductList from "./ProductList";
 
 const Menu = () => {
@@ -15,7 +15,8 @@ const Menu = () => {
                 
                 <NavLink to='/about'  style={{ marginRight: 50, marginLeft: 30,color: "Black", textDecoration: 'none' }}>About Us</NavLink>
 
-                <NavLink to='/login'  component={{Login}} style={{ marginRight: 50, marginLeft: 30,color: "Black", textDecoration: 'none' }}>Login/Register</NavLink>
+                <NavLink to='/login' component={{ Login }} style={{ marginRight: 50, marginLeft: 30, color: "Black", textDecoration: 'none' }}>Login/Register</NavLink>
+                
             </h5>
         </>
     );

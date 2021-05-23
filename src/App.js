@@ -6,8 +6,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import ProductList from "./components/ProductList";
 import About from "./components/About";
-import Login from "./components/Login/Login";
-import Register from "./components/Login/Register";
+// import Login from "./components/Login/Login";
+import Register from "./components/Register";
 import Cart from "./components/Cart";
 import Details from "./components/Details";
 import Default from "./components/Default";
@@ -23,7 +23,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/productlist" component={ProductList} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/login" component={Login} />
+          {/* <Route exact path="/login" component={Login} /> */}
           <Route exact path="/register" component={Register} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
