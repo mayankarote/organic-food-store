@@ -17,6 +17,8 @@ export default class Product extends Component {
                   <Link to="/details">
                     <img src={img} alt="" className="card-img-top" />
                   </Link>
+
+                  {/* if customer is login -- display this part */}
                   <button className="cart-btn"
                     disabled={inCart ? true : false}
                     onClick={() => {

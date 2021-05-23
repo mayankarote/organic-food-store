@@ -24,6 +24,7 @@ export default class Navbar extends Component {
         
         <Menu />
 
+        {/* if customer is login -- display this part */}
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>
             <span className="mr-2">

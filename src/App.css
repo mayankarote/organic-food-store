@@ -133,6 +133,9 @@ p {
   color: green;
   text-align: center;
 }
+form:hover {
+  transform: scale(1.1);
+}
 
 .input {
   border: 0.1rem solid black;
@@ -141,4 +144,8 @@ p {
   padding: 0.2rem 0.5rem;
   margin: 10px 0px 10px 150px;
   width: 50%;
+  outline: none;
+}
+input:hover {
+  border-radius: 0.5rem;
 }
