@@ -4,8 +4,10 @@ import styled from "styled-components";
 import logo from "../assets/logo1.jpg";
 import { ButtonContainer } from "./Button";
 import Menu from "./Menu";
+// import axios from "axios";
 
 export default class Navbar extends Component {
+
   render(Navbar) {
     return (
       <Nav className="navbar navbar-expand-sm px-sm-5 align-items-center sticky-top">
@@ -25,7 +27,7 @@ export default class Navbar extends Component {
         <Menu />
 
         {/* if customer is login -- display this part */}
-        
+            
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>
             <span className="mr-2">
