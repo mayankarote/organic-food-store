@@ -18,8 +18,8 @@ return (
 		<Column>
 			<Heading>Contact Us</Heading>
 				<FooterLink href="#">Dhule, Maharashtra, India</FooterLink>
-				<FooterLink href="#">+91 9284631394</FooterLink>
-				<FooterLink href="#">mayankarote1832000@gmail.com</FooterLink>
+				<FooterLink href="#">+91 #########</FooterLink>
+				<FooterLink href="#">######@gmail.com</FooterLink>
 		</Column>
 		<Column></Column>
 
