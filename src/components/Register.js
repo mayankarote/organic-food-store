@@ -25,8 +25,6 @@ export default class Register extends Component {
 						<ButtonContainer style={{ margin: 20, marginLeft: 30 }}>Register</ButtonContainer>
 					</Link>	
 				</div>
-				
-				
 				</form>
       </section>
     );

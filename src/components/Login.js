@@ -1,15 +1,12 @@
-import React, { Component, useState, useEffect  } from "react";
+import React, { Component } from "react";
 import "../App.css";
 import { ButtonContainer } from "./Button";
 import Title from "./Title";
 import { Link } from "react-router-dom"; 
 import Register from "./Register";
-// import axios from "axios";
 
 export default class Home extends Component {
-  
-  render() {
-
+    render() {
     return (
       <section>
         <Title title="Login" />
@@ -29,8 +26,6 @@ export default class Home extends Component {
               <ButtonContainer style={{ margin: 20, marginLeft: 30 }}>Register</ButtonContainer>
             </Link>
           </div>
-				
-				
         </form>
       </section>
     );
