@@ -19,7 +19,7 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Samsung S7",
+    title: "Banana",
     img: "img/banana_adobespark.jpg",
     price: 16,
     company: "SAMSUNG",
@@ -31,7 +31,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "HTC 10 - Black",
+    title: "Beat",
     img: "img/beat_adobespark.jpg",
     price: 8,
     company: "htc",
@@ -43,7 +43,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "HTC 10 - White",
+    title: "Tomato",
     img: "img/tomato_adobespark.jpg",
     price: 18,
     company: "htc",
@@ -55,7 +55,7 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "HTC Desire 626s",
+    title: "capsikum",
     img: "img/capsikum_adobespark.jpg",
     price: 24,
     company: "htc",
@@ -67,7 +67,7 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Vintage Iphone",
+    title: "Carrot",
     img: "img/carrrot_adobespark.jpg",
     price: 17,
     company: "apple",
@@ -79,7 +79,7 @@ export const storeProducts = [
   },
   {
     id: 7,
-    title: "Iphone 7",
+    title: "Chiku",
     img: "img/chiku_adobespark.jpg",
     price: 30,
     company: "apple",
@@ -91,7 +91,7 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Smashed Iphone",
+    title: "cauliflower",
     img: "img/colliflower_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -103,7 +103,7 @@ export const storeProducts = [
   },
   {
     id: 9,
-    title: "Smashed Iphone",
+    title: "Corn",
     img: "img/corn_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -115,7 +115,7 @@ export const storeProducts = [
   },
   {
     id: 10,
-    title: "Smashed Iphone",
+    title: "Dalimb",
     img: "img/dalimb_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -127,7 +127,7 @@ export const storeProducts = [
   },
   {
     id: 11,
-    title: "Smashed Iphone",
+    title: "Dragonfruit",
     img: "img/dragonfruit_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -139,7 +139,7 @@ export const storeProducts = [
   },
   {
     id: 12,
-    title: "Smashed Iphone",
+    title: "Guava",
     img: "img/guava_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -151,7 +151,7 @@ export const storeProducts = [
   },
   {
     id: 13,
-    title: "Smashed Iphone",
+    title: "Strawberry",
     img: "img/strawberry_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -163,7 +163,7 @@ export const storeProducts = [
   },
   {
     id: 14,
-    title: "Smashed Iphone",
+    title: "Tamrind",
     img: "img/tamrind_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -175,7 +175,7 @@ export const storeProducts = [
   },
   {
     id: 15,
-    title: "Smashed Iphone",
+    title: "Ladiesfinger",
     img: "img/ladiesfinger_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -187,7 +187,7 @@ export const storeProducts = [
   },
   {
     id: 16,
-    title: "Smashed Iphone",
+    title: "Onion",
     img: "img/onion_adobespark (1).jpg",
     price: 2,
     company: "apple",
@@ -199,7 +199,7 @@ export const storeProducts = [
   },
   {
     id: 17,
-    title: "Smashed Iphone",
+    title: "Onion",
     img: "img/onion_adobespark (1).jpg",
     price: 2,
     company: "apple",
@@ -212,7 +212,7 @@ export const storeProducts = [
   
   {
     id: 18,
-    title: "Smashed Iphone",
+    title: "Orange",
     img: "img/orange_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -226,7 +226,7 @@ export const storeProducts = [
   
   {
     id: 19,
-    title: "Smashed Iphone",
+    title: "papaya",
     img: "img/papaya_adobespark.jpg",
     price: 2,
     company: "apple",
@@ -240,7 +240,7 @@ export const storeProducts = [
   
   {
     id: 20,
-    title: "Smashed Iphone",
+    title: "Pineapple",
     img: "img/pineapple_adobespark.jpg",
     price: 2,
     company: "apple",
