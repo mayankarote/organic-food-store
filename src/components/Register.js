@@ -105,7 +105,7 @@ export default class Register extends Component {
             />
           </div>
           <div>
-            <Link to="/login" className="ml-auto">
+            <Link to="/" className="ml-auto">
               <ButtonContainer style={{ margin: 20, marginLeft: 30 }}>
                 Register
               </ButtonContainer>

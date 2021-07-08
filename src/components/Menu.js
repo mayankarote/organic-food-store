@@ -10,7 +10,7 @@ const Menu = () => {
     <>
       <h5>
         <NavLink
-          to="/"
+          to="/home"
           component={Home}
           style={{
             marginRight: 50,
